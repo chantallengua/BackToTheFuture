@@ -34,6 +34,17 @@
   <!-- Reference for jQuery -->  
   <script src="jquery-3.4.1.min.js"></script>
   
+  <script language="Javascript">
+    window.onload=function(){
+    var mobile = (/iphone|ipad|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+    if (mobile) {
+        alert("Hello. The Time Machine page of this website is designed for browsing on large screens only. Visit it on a computer to enjoy a better view.");              
+    } else {
+
+    }
+  }
+  </script>
+  
 </head>
 
 <body>
