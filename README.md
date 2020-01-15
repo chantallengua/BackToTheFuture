@@ -1,4 +1,4 @@
-BACK TO THE FUTURE
+# BACK TO THE FUTURE
 
 This project was developed for the "<b>Information Modeling and Web Technologies</b>" course of the Master Degree in <b>Digital Humanities and Digital Knowledge</b> of the <b>University of Bologna</b>, a.y. 2018/2019. 
 <br>
