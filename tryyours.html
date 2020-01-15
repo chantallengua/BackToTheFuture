@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Back to the future</title>
+  <link rel='icon' href='img/ico.ico'/>  
+
+  <!-- FontAwesome -->  
+  <script src="https://kit.fontawesome.com/26e52bfea1.js"></script>
+  
+  <!-- Prism.js to display code -->  
+  <link href="themes/prism.css" rel="stylesheet" />
+  
+  <!-- FontAwesome -->  
+  <script src="https://kit.fontawesome.com/26e52bfea1.js"></script>
+  
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>  
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/business-casual.css" rel="stylesheet" id="thestylesheet">
+    
+  <!-- Reference for Ajax -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+  <!-- Reference for jQuery -->  
+  <script src="jquery-3.4.1.min.js"></script>
+  
+  <!-- for the CK Editor -->   
+  <script src="https://cdn.ckeditor.com/4.12.1/standard-all/ckeditor.js"></script>
+  
+  <!-- for the last iframe -->    
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+   <script src="http://localhost:35729/livereload.js"></script>
+
+
+    <style>
+  <!-- CSS of this page -->
+  
+
+  
+.lora {
+  font-family: 'Lora';}
+
+textarea {
+  width: 100%;
+  margin: 20px auto 55px;
+  height: 190px;
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-color: #999;
+}
+
+.containeriframe {
+  background: #e3e3e3;
+  border-right: 1px solid white;
+}
+
+.grid {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px 20px;
+}
+
+.output {
+  border-left: 1px solid #e3e3e3;
+
+}
+
+.output iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+.container-large {
+min-width:100%;
+margin: 0px;
+  border: none;
+  padding: 20px;
+}
+
+
+.roba {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(00, 00, 00, 0.7);
+  z-index:-10;
+}
+
+.cta-inner2 {
+  padding: 3rem 0.5rem 3rem 0.5rem;
+  margin: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.85);
+      height: 140%;
+}
+
+.cta2 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(00, 00, 00, 0.7);
+    height: 180%;
+}
+
+
+
+.cta2 .cta-inner2:before {
+  border-radius: 0.5rem;
+  content: '';
+  position: absolute;
+  top: -0.5rem;
+  bottom: -0.5rem;
+  left: -0.5rem;
+  right: -0.5rem;
+  border: 0.25rem solid rgba(255, 255, 255, 0.85);
+  height: 120%;
+}
+
+.cta-inner-long {
+height: 105%;
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+  <!-- Beginning of the site: the Title -->
+  <h1 class="site-heading text-center text-white d-none d-lg-block">
+    <span class="site-heading-upper text-light mb-3">A typographic time travel</span>
+    <span class="site-heading-lower text-light"><b>Back to the future</b></span>
+  </h1>
+  <!-- End of the Title --> 
+
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Back to the Future</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="index.html">Home</a>
+          </li>
+		  <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="timemachine.html">Time Machine</a>			
+          </li>
+		  <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="documentation.html">Documentation</a>
+          </li>
+          <li class="nav-item active px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="tryyours.html">Try yours
+			<span class="sr-only">(current)</span></a>
+          </li>
+		  <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="nerdme.html">Nerd me</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="disclaimer.html">Disclaimer</a>
+          </li>
+          <li class="nav-item px-lg-4">
+            <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End of the Navbar -->
+
+  
+  
+    <!-- First Section -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h2 class="section-heading mb-4">              
+              <span class="section-heading-upper text-center mb-2">Easy like stealing candy from a baby</span>
+              <span class="section-heading-lower text-center mb-5">THE GUIDELINES</span>
+            </h2>			
+		  <div class="col-xl-12">
+                          <p id="dropcap" class="mb-3" align="justify">
+			We know you <b>fell in love</b> with our <a href="timemachine.html" target="_blank"><u>Time Machine</u></a> tool and with the possibility to 
+			view recent 
+			articles formatted according to <b>styles</b> from the past (and the future). Yes, you fell in love with it, but you would like to try it with 
+			<b>your</b> own articles.
+			</p>
+			<p class="mb-3" align="justify">
+			Well, <b>you've come to the right place</b>.
+			</p>
+			<p class="mb-3" align="justify">
+			Whether you want to write a trivial "<i>Hello World</i>", or you want to spread a huge treatise on geoquantistic physics 
+			around the world, here you can <b>format it with our typographical styles</b>! But f of all...
+			</p>
+			
+			<p class="mb-3" align="center">
+			<b>Are you familiar with HTML/CSS?</b>
+			</p>
+			
+			<div class="row" class="rounded">
+  <div class="column" style="background-image:url('img/bgaaa.png');"  class="rounded">
+    <p align="center"><b>Unfortunately, no.</b></p>
+    <p align="justify" class="mb-2">Well, keep on reading! We have a <b>wonderful, super fast, free online tool</b> right below!</p>
+	<p align="justify">A useful <b>guide</b>, divided in two parts, will also
+	explain you how to use it.</p>
+  </div>
+  <div class="column" style="background-image:url('img/bgbbb.png');"  class="rounded">
+    <p align="center"><b>Unfortunately, yes.</b></p>
+    <p align="justify" class="mb-0">You already know everything, so you can download each of our six stylesheets <b>right now</b>:</p>
+	
+				<div class="row" >
+	<div class="column2">
+	
+	<a href="userdownload/sumerian.css" download>Sumerian</a>
+<br>
+		<a href="userdownload/bauhaus.css" download>Bauhaus</a>
+<br>
+		<a href="userdownload/arcade.css" download>Arcade</a>
+		
+</div>
+			<div class="column2">
+
+				<a href="userdownload/type.css" download>Typewriter</a>
+				<br>
+				<a href="userdownload/popart.css" download>Pop Art</a>
+				<br>
+		<a href="userdownload/future.css" download>Future</a>
+
+
+	</div>  </div>
+	
+	<p align="justify">
+	Or download	<a href="userdownload/all.rar" download>all of them</a> in a .zip folder!
+	</p>
+</div>
+</div>
+
+
+			        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>  
+  <!-- End of the First Section -->  
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding-righ: 40px;
+    padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+
+    <!-- First Section -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h2 class="section-heading mb-4">              
+              <span class="section-heading-upper text-center mb-2">Explaining "The Editor"</span>
+              <span class="section-heading-lower text-center mb-5">THE GUIDELINES: PART A</span>
+            </h2>			
+		  <div class="col-xl-12">
+                          <p id="dropcap" class="mb-3" align="justify">
+			Below this text you will find a section entitled "<b>THE EDITOR</b>".
+			Created by <a href="https://ckeditor.com/" target="_blank"> CKEditor</a>, it is a JavaScript 
+			WYSIWYG text editor, an acronym for "What You See Is What You Get" that allows you to see a text
+			in its HTML<sup>1</sup> structure </li> and also in its final form (the one you are reading right now, taking as example this text).			
+			</p>
+
+			
+						<hr>
+			
+			<p class="mb-3 mt-3" align="justify" style="font-size:10.5pt; margin-left:20px; margin-right:30px;">
+			<sup>1</sup> <i><b>HTML</b> is the standard markup language for documents designed to be displayed in a web browser. In other words, 
+			it describes the hierarchical structure of a text (title, subtitle, paragrahps and so on).</i>
+			<hr>
+			</p>
+			<p class="mb-3" align="justify">
+			In simple words, if you don't have any HTML knowledge, you can start writing your article/text in the box of the <b>editor</b> and then select 
+			
+			the features that will make it semantically rich
+			
+			
+			(such as <i>Title 1</i>, <i>Title 2</i>, <i>Subtitle</i> etc), by clicking the <b>toolbar button <i>Format</i></b>.</p>
+			
+			<figure align="center">
+			<img src="img/editor3.png" width="20%" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+			</figure>
+
+			<p class="mb-3" align="justify">
+		    You can even <b>add images</b>, special symbols and <b>tables</b>, by exploring and playing with the buttons.
+			In the meantime, the editor 
+			will <b>automatically create the HTML structure</b> of your article/text, without you even noticing it!			
+			When you are finally satisfied with your article, you can get the <b>HTML structure</b> of it just clicking on the <b><i>Source</i></b> button.
+			</p>
+			
+			<figure align="center">
+			<img src="img/editor4.png" width="18%" style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+			</figure>
+			
+			<p class="mb-5" align="justify">
+			If you don't have any article in mind, the editor is already filled with a <b>sample</b> "<i>Lorem Ipsum</i>" text, provided with three levels of hierarchy: a main title (h1) 
+			and two subtitles (h2 and h3), some paragraphs and one image.
+			But now you may have a question: why do you have to care about HTML?
+			Because this is the only way you can move on to <b>Part 2</b> of these awesome <b>guidelines</b>.
+			</p>
+			        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>  
+  <!-- End of the First Section -->  
+  
+  
+  
+
+    <!-- Second Section -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h2 class="section-heading mb-4">              
+              <span class="section-heading-upper text-center mb-2">Type/copy your text here, or use our sample</span>
+              <span class="section-heading-lower text-center mb-5">THE EDITOR</span>
+            </h2>			
+		  <div class="col-xl-12">
+			    <textarea cols="80" id="editor1" name="editor1" rows="10" data-sample-short>
+&lt;h1&gt;Lorem ipsum&lt;/h1&gt;
+&lt;h2&gt;Dolor sit amet&lt;/h2&gt;
+&lt;h3&gt;Consectetur adipiscing elit&lt;/h3&gt;
+&lt;p&gt;Sed do eiusmod tempor incididunt ut &lt;b&gt;labore&lt;/b&gt; et &lt;b&gt;dolore&lt;/b&gt; magna aliqua.&lt;/p&gt;
+&lt;p&gt;Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Duis aute irure dolor in reprehenderit in voluptate&lt;/strong&gt; velit esse cillum dolore eu fugiat nulla pariatur.&lt;/p&gt;
+&lt;p&gt;Excepteur sint occaecat cupidatat non proident, &lt;i&gt;sunt in culpa qui officia deserunt mollit anim id est laborum&lt;/i&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;time&quot; src=&quot;https://backtothefuture2019.github.io/tttt/img/time.png&quot; style=&quot;height:200px; width:200px&quot; /&gt;&lt;/p&gt;
+ </textarea>
+  <script>
+    // We need to turn off the automatic editor creation first.
+    CKEDITOR.disableAutoInline = true;
+
+    CKEDITOR.replace('editor1');
+  </script>
+			        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>  
+  <!-- End of the Second Section --> 
+  
+  
+
+
+    <!-- First Section -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h2 class="section-heading mb-4">              
+              <span class="section-heading-upper text-center mb-2">Here comes the fun part</span>
+              <span class="section-heading-lower text-center mb-5">THE GUIDELINES: PART B</span>
+            </h2>			
+		  <div class="col-xl-12">
+                          <p id="dropcap" class="mb-3" align="justify">
+				You wrote your awesome article, clicked on the '<i>Source</i>' button and found out its HTML structure.
+				Now it's time to <b>style</b> it!
+				</p>
+				<p class="mb-3" align="justify">
+				<b>Copy</b> the HTML structure of your text and go to the section below.
+				You will see a white text area indicated by the title '<i><b>Insert your text here</b></i>', with already something inside:
+				"<i>&lt;article&gt; &lt;section&gt;</i>". Don't worry, these elements (which are <b>HTML tags</b>) are essential to give a 
+				general environment to your article, following the structure of our six historical styles.
+				</p>
+				<p class="mb-3" align="justify">
+				So, now <b>paste</b> the HTML structure of your article it in the text area after "<i>&lt;article&gt; &lt;section&gt;</i>" and see 
+				how it magically appears on the left. 
+				
+				You can even <b>keep on modifying it</b>, 
+				if you want, and the changes will be displayed just in less than a second!
+				</p>
+				<p class="mb-3" align="justify">
+				Finally, <b>choose</b> your favorite <b>style</b> by clicking on one of the six buttons underneath. But remember that each time you want to
+				<b>change</b> an already-displayed style, you have to '<b>clean</b>' the previous one, otherwise they will sum each other (... which
+				would be a fun experiment anyway, wouldn't it?).
+				</p>
+			        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>  
+  <!-- End of the First Section -->  
+  
+  
+  
+    <!-- Third Section: the IFRAME -->
+<section class="page-section roba">
+    <div class="container container-large">
+		<div class="row">
+			<div class="col-xl mx-auto">
+				<div class="cta-inner2 rounded cta-inner-long">
+					<div class="container grid">
+
+						<form>
+							<h3 class="lora">Insert your text here:</h3>
+							<textarea id="textarea">&lt;article&gt;&lt;section&gt;</textarea>
+						</form>
+		
+							<div class="mb-4">
+								<h3 class="lora mb-2">Choose your style:</h3>
+									<div style="display:inline-block" align="center" class="mt-2">		
+										<input type="button" class="btn" value="Sumerian" onclick="addCss('sumerian.css')" />
+										<input type="button" class="btn" value="Typewriter" onclick="addCss('type.css')" />
+										<input type="button" class="btn" value="Bauhaus" onclick="addCss('bauhaus.css')" />
+										<input type="button" class="btn" value="Pop Art" onclick="addCss('popart.css')" />
+										<input type="button" class="btn" value="Arcade" onclick="addCss('arcade.css')" />
+										<input type="button" class="btn" value="Future" onclick="addCss('futuretryyours.css')" />
+									</div>
+							</div>
+		
+							<hr> 
+		
+							<div class="mt-3">
+								<h5 class="lora mb-2">Clean the previous style:</h5>
+									<div style="display:inline-block" align="center" class="mt-2">	
+										<input type="button" class="btn" value="Clean" onclick="removeCss()" />
+									</div>
+							</div>
+					</div>
+							<div class="output grid">
+								<iframe id="iframe" name="iframe" class="iframe"></iframe>
+							</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>  
+  <!-- End of the Third Section --> 
+
+
+
+    <!-- First Section -->
+  <section class="page-section cta">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <div class="cta-inner rounded">
+            <h2 class="section-heading mb-4">              
+              <span class="section-heading-upper text-center mb-2">I wanna know how it works</span>
+              <span class="section-heading-lower text-center mb-5">At my own risk</span>
+            </h2>			
+		  <div class="col-xl-12">
+                          <p id="dropcap" class="mb-3" align="justify">
+				Oh, I see. You <b>don't believe in magic</b> and you want do deeply analyze how the cold, grey machine works.
+				You must be so fun at parties.
+				</p>
+				
+				<p class="mb-3" align="justify">
+				Very well. Let's reveal all the magician's tricks.
+				</p>
+				
+				<p class="mb-3" align="justify">
+				Nothing to explain regarding the <b>CK Editor</b> part: it's just a tool allowing non-HTML experts to write an article
+				with a correct HTML structure without following a whole course about HTML.
+				</p>
+				
+				<p class="mb-3" align="justify">
+				Part B, however, is trickier. It is structured as a 
+				&lt;grid&gt; divided in two columns: the left one for the <b>inputs</b> (the text and the styles) and the right one
+				for the <b>output</b> (the formatted text in the chosen style).
+				The text can be written in a &lt;textarea&gt; element, and will be shown as output on the right inside an element
+				called <b>&lt;iframe&gt;</b> (used to embed another HTML document within the current HTML document).
+				The &lt;iframe&gt; is populated through the following <b>jQuery function</b>, 
+				a reworking of a function wrote by <a href="https://github.com/bhskt/simpleWebEditor" target="_blank">
+				Bhaskar Tiwari</a>:
+				</p>
+				
+				<script src="prism.js"></script>
+				<pre>
+(function() {
+	$('.grid').height( $(window).height() );	
+	var	contents = $('iframe').contents(),
+		body = contents.find('body'),
+		styleTag = $('&lt;style&gt;&lt;/style&gt;').appendTo(contents.find('head'));
+	$('textarea').keyup(function() {
+		var $this = $(this);
+		if ( $this.attr('id') === 'textarea') {
+			body.html( $this.val() );
+		}
+	});
+})();</pre>			
+
+<style>
+pre {
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+padding:25px; 
+background-image:url('img/white.png');
+margin-top: 20px;
+margin-bottom: 20px;
+}
+</style>
+	
+				<p class="mb-3" align="justify">
+				The grey squared buttons for choosing the styles were developed in <b>Javascript</b>. Here is what we did:
+				we added a simple <b>'onclick'</b> event 
+				on each of the buttons, defining the name of its CSS.
+				For example:
+				</p>
+<pre>
+&lt;input type="button" value="Bauhaus" onclick="addCss('bauhaus.css')"/&gt;
+&lt;input type="button" value="Pop Art" onclick="addCss('popart.css')"/&gt;
+</pre>
+		
+				<p class="mb-3" align="justify">
+				The Javascript function, therefore, took as parameter the name of its CSS and created a full
+				<b>link to an external style sheet</b> (i.e. the desired historical type), enriched with all its standard attributes
+				(<b>&lt;rel&gt;</b>, <b>&lt;type&gt;</b> and, of course, <b>&lt;href&gt;</b>). The created <b>&lt;link&gt;</b> is finally put
+				inside the body of the iframe.
+				</p>		
+
+<pre>
+function addCss(fileName) {
+
+  var x = document.getElementById("iframe");
+  var y = x.contentWindow.document;
+  var link = document.createElement("link");
+
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.href = fileName;
+
+  y.body.appendChild(link);
+}</pre>
+
+				<p class="mb-3" align="justify">
+				In conclusion, the '<b>cleaning</b>' button was a 'trick' to avoid the accumulation/sum of the stylesheets one above the other.
+				With the Js method <b>removeChild()</b> we managed to remove a specified child node of the specified element (i.e. the iframe),
+				and we chose it to be the <b>second</b>, assuming that the first is the written text. So, the Js function will never remove
+				the text but only the <b>first appended CSS</b> (so not the last one! <i class="fas fa-exclamation-triangle"></i> ).
+				</b>
+				
+<pre>
+function removeCss() {
+  var x = document.getElementById("iframe");
+  var y = x.contentWindow.document;
+  var list = y.body;
+  
+  list.removeChild(list.childNodes[1]);
+}
+</pre>
+				</p>
+
+				
+			        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	</div>
+  </section>  
+  <!-- End of the First Section --> 
+  
+  
+  
+
+    <!-- Footer -->
+  <footer class="footer text-faded text-center py-5">
+    <div class="container">
+      <p class="m-0 small">Copyright <span class="text-white">&copy; Lengua Chantal, Moccia Vittoria, Siurina Lisa</span> - 2019</p>
+    </div>
+  </footer>
+    <!-- End of the Footer -->  
+
+
+    <!-- Function of the IFRAME -->  
+<script>
+(function() {
+	$('.grid').height( $(window).height() );	
+	var	contents = $('iframe').contents(),
+		body = contents.find('body'),
+		styleTag = $('<style></style>').appendTo(contents.find('head'));
+	$('textarea').keyup(function() {
+		var $this = $(this);
+		if ( $this.attr('id') === 'textarea') {
+			body.html( $this.val() );
+		} 
+	});
+})();
+</script>
+ 
+ 
+ 
+<script>
+function addCss(fileName) {
+
+  var x = document.getElementById("iframe");
+  var y = x.contentWindow.document;
+  var link = document.createElement("link");
+
+  link.type = "text/css";
+  link.rel = "stylesheet";
+  link.id = "stylesheet1";
+  link.href = fileName;
+
+  y.body.appendChild(link);
+}
+</script>
+
+
+<script>
+function removeCss() {
+  var x = document.getElementById("iframe");
+  var y = x.contentWindow.document;
+  var list = y.body;
+  
+  list.removeChild(list.childNodes[1]);
+}
+</script>  
+
+
+
+<style>
+<style>
+.btn:link,
+.btn:visited{
+  text-decoration: none;
+  text-transform:uppercase;
+  position:relative;
+  top:0;
+  left:0;
+  padding:10px 20px;
+  border-radius:100px;
+  display:inline-block;
+  transition: all .5s;
+}
+
+.btn{
+  background:#B0B7BD;
+  color:#000000;
+}
+
+.btn:hover{
+   box-shadow:0px 10px 10px #2D3E4E;
+   transform : translateY(-3px);
+}
+
+.btn:active{
+  box-shadow:0px 5px 10px #2D3E4E
+  transform:translateY(-1px);
+}
+
+
+.btn::after{
+  content:"";
+  text-decoration: none;
+  text-transform:uppercase;
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  border-radius:100px;
+  display:inline-block;
+  z-index:-1;
+  transition: all .5s;
+}
+
+.btn::after {
+    background: #B0B7BD;
+}
+
+.btn-animation-1:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+@keyframes comeFromBottom{
+  0%{
+    opacity:0;
+    transform:translateY(40px);
+  } 
+  100%{
+    opacity:1;
+    transform:translateY(0);
+  }
+}
+</style>	
+
+</body>
+</html>
